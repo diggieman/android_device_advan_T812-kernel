@@ -74,10 +74,10 @@
 #define FTR_OVR_VAL_OFFSET 0 /* offsetof(struct arm64_ftr_override, val) */
 #define FTR_OVR_MASK_OFFSET 8 /* offsetof(struct arm64_ftr_override, mask) */
 
-#define VCPU_CONTEXT 368 /* offsetof(struct kvm_vcpu, arch.ctxt) */
-#define VCPU_FAULT_DISR 2224 /* offsetof(struct kvm_vcpu, arch.fault.disr_el1) */
-#define VCPU_WORKAROUND_FLAGS 2232 /* offsetof(struct kvm_vcpu, arch.workaround_flags) */
-#define VCPU_HCR_EL2 2184 /* offsetof(struct kvm_vcpu, arch.hcr_el2) */
+#define VCPU_CONTEXT 384 /* offsetof(struct kvm_vcpu, arch.ctxt) */
+#define VCPU_FAULT_DISR 2240 /* offsetof(struct kvm_vcpu, arch.fault.disr_el1) */
+#define VCPU_WORKAROUND_FLAGS 2248 /* offsetof(struct kvm_vcpu, arch.workaround_flags) */
+#define VCPU_HCR_EL2 2200 /* offsetof(struct kvm_vcpu, arch.hcr_el2) */
 #define CPU_USER_PT_REGS 0 /* offsetof(struct kvm_cpu_context, regs) */
 #define CPU_APIAKEYLO_EL1 1608 /* offsetof(struct kvm_cpu_context, sys_regs[APIAKEYLO_EL1]) */
 #define CPU_APIBKEYLO_EL1 1624 /* offsetof(struct kvm_cpu_context, sys_regs[APIBKEYLO_EL1]) */
